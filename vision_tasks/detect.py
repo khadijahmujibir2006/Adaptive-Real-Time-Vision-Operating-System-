@@ -4,7 +4,7 @@ import cv2
 def detect(frame):
     start = time.time()
 
-    # Simple placeholder detection (face detector)
+    
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     face_cascade = cv2.CascadeClassifier(
         cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
